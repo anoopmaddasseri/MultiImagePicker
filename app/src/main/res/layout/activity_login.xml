@@ -1,0 +1,40 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.sample.picker.LoginActivity">
+
+    <include layout="@layout/layout_toolbar" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:animateLayoutChanges="true"
+        android:orientation="vertical">
+
+        <com.picker.view.AppCompatButton
+            android:id="@+id/login"
+            style="@style/ButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/button_Size"
+            android:text="Login With Facebook" />
+
+        <com.picker.view.AppCompatButton
+            android:id="@+id/logout"
+            style="@style/ButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/button_Size"
+
+            android:text="Logout" />
+
+        <com.picker.view.AppCompatButton
+            android:id="@+id/browse"
+            style="@style/ButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/button_Size"
+            android:text="Browse" />
+    </LinearLayout>
+</RelativeLayout>

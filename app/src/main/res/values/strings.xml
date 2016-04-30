@@ -1,0 +1,29 @@
+<resources>
+    <!--App commons-->
+    <string name="app_name">Image Picker</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="ok">Ok</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="cancel">Cancel</string>
+
+    <!--API keys-->
+    <string name="facebook_app_id">Facebook-App-Id</string>
+
+    <!-- Runtime permission notifications -->
+    <string name="permissions_not_granted">You can\'t use this feature because the requested permission were not granted</string>
+    <string name="permission_granted">Requested permission has been granted. Preview can now be opened.</string>
+    <string name="permission_rationale">You need to grant access to %1$s</string>
+
+    <!-- Permission type-->
+    <string name="p_storage">Storage</string>
+    <string name="p_gallery">Gallery</string>
+
+    <string-array name="facebook_permissions">
+        <item>email</item>
+        <item>public_profile</item>
+        <item>user_birthday</item>
+        <item>user_photos</item>
+    </string-array>
+
+</resources>

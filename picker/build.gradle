@@ -1,0 +1,28 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "23.0.2"
+
+    defaultConfig {
+        minSdkVersion 19
+        targetSdkVersion 23
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+def APPCOMPAT_VERSION = "23.3.0"
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile "com.android.support:appcompat-v7:${APPCOMPAT_VERSION}"
+    compile "com.android.support:recyclerview-v7:${APPCOMPAT_VERSION}"
+    compile "com.android.support:design:${APPCOMPAT_VERSION}"
+    compile 'com.facebook.android:facebook-android-sdk:4.+'
+    compile 'com.github.bumptech.glide:glide:3.7.0'
+}

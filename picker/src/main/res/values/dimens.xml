@@ -1,0 +1,46 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!--Specifics-->
+    <dimen name="picker_view_item_margin">3.5dp</dimen>
+
+    <!--Primary button properties-->
+    <dimen name="button_Size">60dp</dimen>
+
+    <!--Layout values-->
+    <dimen name="margin_padding_width_height_1">8dp</dimen>
+    <dimen name="margin_padding_width_height_2">16dp</dimen>
+    <dimen name="margin_padding_width_height_3">24dp</dimen>
+    <dimen name="margin_padding_width_height_4">32dp</dimen>
+    <dimen name="margin_padding_width_height_5">40dp</dimen>
+    <dimen name="margin_padding_width_height_6">48dp</dimen>
+    <dimen name="margin_padding_width_height_7">56dp</dimen>
+    <dimen name="margin_padding_width_height_8">64dp</dimen>
+    <dimen name="margin_padding_width_height_9">72dp</dimen>
+    <dimen name="margin_padding_width_height_10">80dp</dimen>
+    <dimen name="margin_padding_width_height_11">88dp</dimen>
+    <dimen name="margin_padding_width_height_12">96dp</dimen>
+    <dimen name="margin_padding_width_height_13">104dp</dimen>
+    <dimen name="margin_padding_width_height_14">112dp</dimen>
+    <dimen name="margin_padding_width_height_15">120dp</dimen>
+
+    <!--Text font variable-->
+    <dimen name="text_size_xs">8sp</dimen>
+    <dimen name="text_size_s">12sp</dimen>
+    <dimen name="text_size_m">16sp</dimen>
+    <dimen name="text_size_l">20sp</dimen>
+    <dimen name="text_size_xl">24sp</dimen>
+    <dimen name="text_size_xxl">28sp</dimen>
+
+    <!--Text font fixed-->
+    <dimen name="text_size_xs_fixed">8dp</dimen>
+    <dimen name="text_size_s_fixed">12dp</dimen>
+    <dimen name="text_size_m_fixed">16dp</dimen>
+    <dimen name="text_size_l_fixed">20dp</dimen>
+    <dimen name="text_size_xl_fixed">24dp</dimen>
+    <dimen name="text_size_xxl_fixed">28dp</dimen>
+
+
+</resources>

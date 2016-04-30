@@ -1,0 +1,22 @@
+<resources>
+
+    <!--Font Names-->
+    <string name="avenir_bold">fonts/Avenir-Bold.otf</string>
+    <string name="avenir_regular">fonts/Avenir-Regular.otf</string>
+    <string name="avenir_medium">fonts/Avenir-Medium.otf</string>
+
+    <!--Common Labels-->
+    <string name="done">Done</string>
+    <string name="loading">Loading...</string>
+    <string name="show_album_images_activity">Choose profile pictures</string>
+
+    <!--Toolbar Tittle-->
+    <string name="gallery_album_activity">Albums</string>
+    <string name="fb_albums">Facebook Albums</string>
+
+    <!--Warning / Error-->
+    <string name="error_profile_image">Please select at least (%1$d) image</string>
+    <string name="warning_image_exceed">Maximum %1$d image(s) allowed</string>
+    <string name="warning_no_album">Albums not available \nat this moment</string>
+    <string name="warning_image_select">There was an error retrieving image metadata information. This image cannot be select right now.</string>
+</resources>

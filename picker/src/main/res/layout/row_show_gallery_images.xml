@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imgAlbum"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin_padding_width_height_10"
+        android:layout_centerHorizontal="true"
+        android:scaleType="centerCrop" />
+
+    <RelativeLayout
+        android:id="@+id/selectedOverlay"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin_padding_width_height_10"
+        android:layout_centerHorizontal="true"
+        android:background="@color/colorTransparentBlack"
+        android:visibility="invisible">
+
+        <ImageView
+            android:layout_width="@dimen/margin_padding_width_height_3"
+            android:layout_height="@dimen/margin_padding_width_height_3"
+            android:layout_centerInParent="true"
+            android:src="@drawable/ic_selector" />
+    </RelativeLayout>
+</RelativeLayout>
