@@ -1,7 +1,7 @@
 MultiImagePicker
 ===========
 
-MultiImagePicker let's us to choose more than one image from gallery or facebook with pretty UI/UX.
+MultiImagePicker let us to choose more than one image from gallery or facebook with pretty UI/UX.
 
 Features:
 ==========
