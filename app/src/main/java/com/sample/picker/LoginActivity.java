@@ -21,7 +21,7 @@ import org.json.JSONObject;
 import java.util.Arrays;
 
 /**
- * Login screen that offers login via facebook
+ * Login screen that offers login via facebook .
  */
 public class LoginActivity extends BaseActivity implements View.OnClickListener {
 
